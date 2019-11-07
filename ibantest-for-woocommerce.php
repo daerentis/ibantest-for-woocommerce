@@ -112,7 +112,7 @@ if ( ! class_exists( 'IBANTEST_For_WooCommerce' ) ) {
 			include_once( 'includes/wc-ibantest-sidebar.php' );
 			include_once( 'includes/wc-ibantest-gateway.php' );
 
-			add_action( 'admin_notices', array( WC_IBANTEST_Service(), 'check_ibantest_api' ), 0 );
+			#add_action( 'admin_notices', array( WC_IBANTEST_Service(), 'check_ibantest_api' ), 0 );
 
 			add_action( 'export_wp', array( WC_IBANTEST_Export(), 'export' ), 0, 1 );
 			add_filter( 'export_args', array( WC_IBANTEST_Export(), 'export_args' ) );
