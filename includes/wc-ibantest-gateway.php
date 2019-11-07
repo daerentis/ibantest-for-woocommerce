@@ -50,7 +50,7 @@ class WC_IBANTEST_Gateway extends WC_Payment_Gateway {
 		add_action( 'wp_enqueue_scripts', array( $this, 'enqueue_scripts' ) );
 		add_action( 'admin_enqueue_scripts', array( $this, 'admin_enqueue_scripts' ) );
 		add_action( 'woocommerce_checkout_update_order_meta', array( $this, 'add_order_meta' ), 10, 2 );
-		add_action( 'woocommerce_thankyou', array( $this, 'show_thank_you' ) );
+		#add_action( 'woocommerce_thankyou', array( $this, 'show_thank_you' ) );
 		add_action( 'woocommerce_admin_order_data_after_order_details', array( $this, 'order_detail_fields' ), 10, 1 );
 		add_action( 'woocommerce_email_customer_details', array( $this, 'email_direct_debit' ), 15, 3 );
 
