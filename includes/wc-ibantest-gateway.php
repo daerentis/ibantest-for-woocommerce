@@ -157,7 +157,7 @@ class WC_IBANTEST_Gateway extends WC_Payment_Gateway {
 				<span id="' . esc_attr( $this->id ) . '-account-iban-error" class="error-message" style="display: none;"></span>
 			</p>',
 			'account-bic'    => '<p class="form-row form-row-wide account-bic" style="' . ( isset( $data['bic'] ) ? '' : 'display: none;' ) . '">
-				<label for="' . esc_attr( $this->id ) . '-account-bic">' . __( 'BIC/SWIFT', 'ibantest-for-woocommerce' ) . '</label>
+				<label for="' . esc_attr( $this->id ) . '-account-bic">' . __( 'BIC/SWIFT', 'ibantest-for-woocommerce' ) . ' <span class="required">*</span></label>
 				<input id="' . esc_attr( $this->id ) . '-account-bic" class="input-text wc-' . esc_attr( $this->id ) . '-account-bic transform-uppercase" type="text" value="' . ( isset( $data['bic'] ) ? esc_attr( $data['bic'] ) : '' ) . '" autocomplete="off" placeholder="" name="' . esc_attr( $this->id ) . '_account_bic' . '" />
 				<span id="' . esc_attr( $this->id ) . '-account-bank" style="display: none;"></span>
 			</p>',
