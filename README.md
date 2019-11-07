@@ -1,4 +1,4 @@
-=== IBANTEST for WooCommerce  ===
+# IBANTEST for WooCommerce
 Contributors: IBANTEST
 Tags: woocommerce, IBAN, BIC, SEPA, direct debit, Lastschrift, sichere Zahlungsweise, Validierung, validation, SWIFT-Code, WooCommerce Subscriptions
 Requires at least: 3.8
@@ -12,7 +12,7 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
 Provides direct debit payment with IBAN and BIC validation for WooCommerce
 
-== Description ==
+## Description
 
 ** IBANTEST for WooCommerce ** extends WooCommerce by the payment method direct debit including (optional) validation of the entered IBAN.
 It helps to avoid incorrect IBAN entries and return debits.
@@ -24,7 +24,7 @@ We also have a fair usage feature: same IBAN validations within 15 minutes are c
 Please have a look at our [IBANTEST info page](https://www.ibantest.com/en/wordpress "IBANTEST Info page") or try it at
 [IBANTEST Wordpress Demo](https://wpdemo.ibantest.com "IBANTEST Wordpress Demo")
 
-== Features ==
+## Features
 
 * Direct debit payment for WooCommerce
 * IBAN / BIC validation
@@ -37,12 +37,12 @@ Please have a look at our [IBANTEST info page](https://www.ibantest.com/en/wordp
 * show only defined number of IBAN-chars in admin order view
 * supports WooCommerce Subscriptions
 
-== Installation ==
+## Installation
 
 We recommend installing IBANTEST for WooCommerce through the WordPress Backend.
 Go to the plugin-settings for configuration.
 
-== Screenshots ==
+## Screenshots
 
 1. Plugin settings
 2. SEPA creditor payment information
@@ -54,7 +54,7 @@ Go to the plugin-settings for configuration.
 
 [GitHub repository](https://github.com/ibantest/ibantest-for-woocommerce).
 
-== Changelog ==
+## Changelog
 = 1.3.1 =
 * WooCommerce 3.5 compatibility
 * Wordpress 5 compatibility
@@ -72,7 +72,7 @@ Go to the plugin-settings for configuration.
 * Initial release.
 
 
-== Upgrade Notice ==
+## Upgrade Notice
 
 = 1.0.0 =
 no upgrade - just install :)
